@@ -1,0 +1,30 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Learning node, express and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon server.js",
+    "startProd": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "honey",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.9.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^5.13.19",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.4",
+    "pug": "^3.0.2",
+    "validator": "^13.9.0",
+    "win-node-env": "^0.6.1",
+    "xss-clean": "^0.1.4"
+  }
+}
